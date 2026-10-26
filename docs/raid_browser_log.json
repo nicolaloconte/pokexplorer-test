@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "map_audit": {
+    "seed": "0x1647babe",
+    "checked": 500,
+    "violationCount": 0,
+    "violations": [],
+    "footprints": [
+      {
+        "floor": 1,
+        "items": 1,
+        "trainers": 4
+      },
+      {
+        "floor": 2,
+        "items": 3,
+        "trainers": 3
+      },
+      {
+        "floor": 3,
+        "items": 2,
+        "trainers": 4
+      }
+    ]
+  },
+  "raid_error_UI": {
+    "first": true,
+    "second": false,
+    "calls": 1,
+    "hidden": true
+  }
+}

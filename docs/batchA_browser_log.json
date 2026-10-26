@@ -1,0 +1,54 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "viewport": "360x780",
+      "radar_px": 43,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "390x844",
+      "radar_px": 43,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "768x900",
+      "radar_px": 43,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "1024x900",
+      "radar_px": 43,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "1440x900",
+      "radar_px": 46.8,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "1440x760",
+      "radar_px": 46.8,
+      "screen_scroll_delta": 0,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    },
+    {
+      "viewport": "1440x650",
+      "radar_px": 46.8,
+      "screen_scroll_delta": 36,
+      "six_slots_ok": true,
+      "badge_reachable": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "B-F_offline": "PASS",
+  "checks": [
+    {
+      "viewport": "360x780",
+      "menu": true,
+      "location": true,
+      "keyItems": true,
+      "language": true,
+      "overflow": 0
+    },
+    {
+      "viewport": "390x844",
+      "menu": true,
+      "location": true,
+      "keyItems": true,
+      "language": true,
+      "overflow": 0
+    },
+    {
+      "viewport": "768x900",
+      "menu": true,
+      "location": true,
+      "keyItems": true,
+      "language": true,
+      "overflow": 0
+    },
+    {
+      "viewport": "1440x900",
+      "menu": true,
+      "location": true,
+      "keyItems": true,
+      "language": true,
+      "overflow": 0
+    }
+  ]
+}

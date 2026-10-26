@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "tracks": 6,
+  "total_mb": 32.34,
+  "audit": [
+    {
+      "name": "pkmnxplorer_grotta_celeste.mp3",
+      "seconds": 151.7,
+      "kbps": 128,
+      "size_mb": 2.43
+    },
+    {
+      "name": "pkmnxplorer_gym.mp3",
+      "seconds": 179.5,
+      "kbps": 128,
+      "size_mb": 2.87
+    },
+    {
+      "name": "pkmnxplorer_legend_trio.mp3",
+      "seconds": 180.2,
+      "kbps": 128,
+      "size_mb": 2.88
+    },
+    {
+      "name": "pkmnxplorer_mewtwo.mp3",
+      "seconds": 280.2,
+      "kbps": 128,
+      "size_mb": 4.48
+    },
+    {
+      "name": "pkmnxplorer_wild_trainer_encounter.mp3",
+      "seconds": 300.2,
+      "kbps": 128,
+      "size_mb": 4.8
+    },
+    {
+      "name": "pokexplorer_bg_music.mp3",
+      "seconds": 929.1,
+      "kbps": 128,
+      "size_mb": 14.87
+    }
+  ]
+}

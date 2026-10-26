@@ -1,0 +1,266 @@
+
+> pokexplorer@7.7.2-rc.5 test
+> node --test tests/*.cjs
+
+TAP version 13
+# Subtest: checkpoint: save/restore typed progression with full map
+ok 1 - checkpoint: save/restore typed progression with full map
+  ---
+  duration_ms: 3.547762
+  type: 'test'
+  ...
+# Subtest: checkpoint: corrupted latest recovers previous valid state
+ok 2 - checkpoint: corrupted latest recovers previous valid state
+  ---
+  duration_ms: 1.010742
+  type: 'test'
+  ...
+# Subtest: checkpoint: prevents snapshots mid encounter
+ok 3 - checkpoint: prevents snapshots mid encounter
+  ---
+  duration_ms: 0.256356
+  type: 'test'
+  ...
+# Subtest: checkpoint: account isolation
+ok 4 - checkpoint: account isolation
+  ---
+  duration_ms: 0.700825
+  type: 'test'
+  ...
+# Subtest: checkpoint: reject invalid map and party
+ok 5 - checkpoint: reject invalid map and party
+  ---
+  duration_ms: 0.621455
+  type: 'test'
+  ...
+# Subtest: M01: starter lines absent from both ordinary wild and fishing
+ok 6 - M01: starter lines absent from both ordinary wild and fishing
+  ---
+  duration_ms: 46.846484
+  type: 'test'
+  ...
+# Subtest: M02: starter floors remain low-level and wild levels scale with floors
+ok 7 - M02: starter floors remain low-level and wild levels scale with floors
+  ---
+  duration_ms: 2.633666
+  type: 'test'
+  ...
+# Subtest: M03: Exp Share claim gate and enabled toggle
+ok 8 - M03: Exp Share claim gate and enabled toggle
+  ---
+  duration_ms: 2.163027
+  type: 'test'
+  ...
+# Subtest: M04: lead is first conscious party member and persists if party unchanged
+ok 9 - M04: lead is first conscious party member and persists if party unchanged
+  ---
+  duration_ms: 2.088866
+  type: 'test'
+  ...
+# Subtest: M05: EXP cannot cross a temporary level cap or accumulate at cap
+ok 10 - M05: EXP cannot cross a temporary level cap or accumulate at cap
+  ---
+  duration_ms: 3.637867
+  type: 'test'
+  ...
+# Subtest: M06: offline Protect has priority and PP; Magnitude remains damaging
+ok 11 - M06: offline Protect has priority and PP; Magnitude remains damaging
+  ---
+  duration_ms: 325.333378
+  type: 'test'
+  ...
+# Subtest: M07: PokéMart purchase never removes money if unavailable or bag full
+ok 12 - M07: PokéMart purchase never removes money if unavailable or bag full
+  ---
+  duration_ms: 5.754644
+  type: 'test'
+  ...
+# Subtest: M08: gift limit refuses duplicate fishing rods and inventory overflow
+ok 13 - M08: gift limit refuses duplicate fishing rods and inventory overflow
+  ---
+  duration_ms: 2.605953
+  type: 'test'
+  ...
+# Subtest: M09: fishing table is distinct from gyms and never includes starter lineage
+ok 14 - M09: fishing table is distinct from gyms and never includes starter lineage
+  ---
+  duration_ms: 3.531767
+  type: 'test'
+  ...
+# Subtest: M10: gym confirmation cancellation restores control without consuming challenge
+ok 15 - M10: gym confirmation cancellation restores control without consuming challenge
+  ---
+  duration_ms: 5.1069
+  type: 'test'
+  ...
+# Subtest: M11: confirmation explicitly warns about the last regular Poké Ball
+ok 16 - M11: confirmation explicitly warns about the last regular Poké Ball
+  ---
+  duration_ms: 3.309383
+  type: 'test'
+  ...
+# Subtest: M13/M14: Kanto completion blocked until all 8 gym milestones and final floor
+ok 17 - M13/M14: Kanto completion blocked until all 8 gym milestones and final floor
+  ---
+  duration_ms: 2.86251
+  type: 'test'
+  ...
+# Subtest: T12: checkpoint is valid, versioned, and contains no engine internals
+ok 18 - T12: checkpoint is valid, versioned, and contains no engine internals
+  ---
+  duration_ms: 1.393117
+  type: 'test'
+  ...
+# Subtest: T12: save/load and rejected corrupted snapshots
+ok 19 - T12: save/load and rejected corrupted snapshots
+  ---
+  duration_ms: 1.291023
+  type: 'test'
+  ...
+# Subtest: T13: cloud adapter sends authenticated revision-specific update and detects conflict
+ok 20 - T13: cloud adapter sends authenticated revision-specific update and detects conflict
+  ---
+  duration_ms: 0.630279
+  type: 'test'
+  ...
+# Subtest: R2.23: independent 10% roll on every eligible collectible
+ok 21 - R2.23: independent 10% roll on every eligible collectible
+  ---
+  duration_ms: 8.890236
+  type: 'test'
+  ...
+# Subtest: R05: collecting without a Raid preserves the 90% normal-loot result
+ok 22 - R05: collecting without a Raid preserves the 90% normal-loot result
+  ---
+  duration_ms: 3.230775
+  type: 'test'
+  ...
+# Subtest: R09: repeat Raid activation is rejected and launch callback runs once
+ok 23 - R09: repeat Raid activation is rejected and launch callback runs once
+  ---
+  duration_ms: 2.61695
+  type: 'test'
+  ...
+# Subtest: R09: stale launch callback cannot start after leaving dungeon
+ok 24 - R09: stale launch callback cannot start after leaving dungeon
+  ---
+  duration_ms: 2.949981
+  type: 'test'
+  ...
+# Subtest: R11: first opponent network error restores original item, not player tile
+ok 25 - R11: first opponent network error restores original item, not player tile
+  ---
+  duration_ms: 3.352968
+  type: 'test'
+  ...
+# Subtest: R11: after a victory, failed API load retains the remaining opponent count
+ok 26 - R11: after a victory, failed API load retains the remaining opponent count
+  ---
+  duration_ms: 2.800387
+  type: 'test'
+  ...
+# Subtest: R11: retrying original item does not reroll the 10% chance
+ok 27 - R11: retrying original item does not reroll the 10% chance
+  ---
+  duration_ms: 3.690236
+  type: 'test'
+  ...
+# Subtest: R10: asynchronous duplicate victories cannot consume Raid slots twice
+ok 28 - R10: asynchronous duplicate victories cannot consume Raid slots twice
+  ---
+  duration_ms: 3.092487
+  type: 'test'
+  ...
+# Subtest: R12: team wipe ends Raid with gameover and leaves dungeon consumed
+ok 29 - R12: team wipe ends Raid with gameover and leaves dungeon consumed
+  ---
+  duration_ms: 2.832805
+  type: 'test'
+  ...
+# Subtest: T06: no dynamic eval and all JS sources pass node --check
+ok 30 - T06: no dynamic eval and all JS sources pass node --check
+  ---
+  duration_ms: 350.844613
+  type: 'test'
+  ...
+# Subtest: T04: unique HTML ids and required UI controls remain in markup
+ok 31 - T04: unique HTML ids and required UI controls remain in markup
+  ---
+  duration_ms: 0.621125
+  type: 'test'
+  ...
+# Subtest: T02/T03/T04: extracted modules load after engine but before game bootstrap
+ok 32 - T02/T03/T04: extracted modules load after engine but before game bootstrap
+  ---
+  duration_ms: 0.738842
+  type: 'test'
+  ...
+# Subtest: G05: female walk and fishing sprites are complete for all 4 directions
+ok 33 - G05: female walk and fishing sprites are complete for all 4 directions
+  ---
+  duration_ms: 1.154729
+  type: 'test'
+  ...
+# Subtest: F06: starters and their evolution families never appear as random wild encounters
+ok 34 - F06: starters and their evolution families never appear as random wild encounters
+  ---
+  duration_ms: 41.33106
+  type: 'test'
+  ...
+# Subtest: F03: full bag keeps collectible and cannot accidentally launch the existing raid
+ok 35 - F03: full bag keeps collectible and cannot accidentally launch the existing raid
+  ---
+  duration_ms: 2.588668
+  type: 'test'
+  ...
+# Subtest: F03: collectible item has fixed identity when inventory is full
+ok 36 - F03: collectible item has fixed identity when inventory is full
+  ---
+  duration_ms: 3.193629
+  type: 'test'
+  ...
+# Subtest: F05: all eight badge gates, caps, party sizes and the ending requirement
+ok 37 - F05: all eight badge gates, caps, party sizes and the ending requirement
+  ---
+  duration_ms: 2.800367
+  type: 'test'
+  ...
+# Subtest: F04: transient PokéAPI failure retries once, then succeeds
+ok 38 - F04: transient PokéAPI failure retries once, then succeeds
+  ---
+  duration_ms: 164.462661
+  type: 'test'
+  ...
+# Subtest: F04: permanent PokéAPI 404 does not retry
+ok 39 - F04: permanent PokéAPI 404 does not retry
+  ---
+  duration_ms: 3.416083
+  type: 'test'
+  ...
+# Subtest: F04: rejected species request is evicted; retry after connection returns
+ok 40 - F04: rejected species request is evicted; retry after connection returns
+  ---
+  duration_ms: 164.097476
+  type: 'test'
+  ...
+# Subtest: F10: separated modules retain the current gym progression and engine API
+ok 41 - F10: separated modules retain the current gym progression and engine API
+  ---
+  duration_ms: 2.984313
+  type: 'test'
+  ...
+# Subtest: F08: all script dependencies load in the correct order and local fallback exists
+ok 42 - F08: all script dependencies load in the correct order and local fallback exists
+  ---
+  duration_ms: 2.003446
+  type: 'test'
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 42
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 570.2469

@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "viewport": 360,
+      "menu": {
+        "height": 399.953125,
+        "scroll": 394,
+        "client": 394
+      },
+      "dev_visible_in_options": true,
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "menu": {
+        "height": 399.953125,
+        "scroll": 394,
+        "client": 394
+      },
+      "dev_visible_in_options": true,
+      "errors": []
+    },
+    {
+      "viewport": 1440,
+      "menu": {
+        "height": 399.953125,
+        "scroll": 394,
+        "client": 394
+      },
+      "dev_visible_in_options": true,
+      "errors": []
+    }
+  ]
+}

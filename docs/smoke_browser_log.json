@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "viewport": 360,
+      "status": {
+        "floor": 1,
+        "team": 1,
+        "map": 10,
+        "overflow": false,
+        "loaded": true
+      },
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "status": {
+        "floor": 1,
+        "team": 1,
+        "map": 10,
+        "overflow": false,
+        "loaded": true
+      },
+      "errors": []
+    },
+    {
+      "viewport": 768,
+      "status": {
+        "floor": 1,
+        "team": 1,
+        "map": 10,
+        "overflow": false,
+        "loaded": true
+      },
+      "errors": []
+    },
+    {
+      "viewport": 1024,
+      "status": {
+        "floor": 1,
+        "team": 1,
+        "map": 10,
+        "overflow": false,
+        "loaded": true
+      },
+      "errors": []
+    },
+    {
+      "dungeon_reachability": {
+        "generations": 500,
+        "bad": 0,
+        "wrongSize": 0
+      }
+    },
+    {
+      "viewport": 1440,
+      "status": {
+        "floor": 1,
+        "team": 1,
+        "map": 10,
+        "overflow": false,
+        "loaded": true
+      },
+      "errors": []
+    }
+  ]
+}

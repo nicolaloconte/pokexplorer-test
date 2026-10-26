@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "viewport": "360x800",
+      "market_exit": true,
+      "local_checkpoint": true,
+      "cave_location": true,
+      "mouth": true,
+      "simulated_80_floors": null,
+      "errors": []
+    },
+    {
+      "viewport": "390x844",
+      "market_exit": true,
+      "local_checkpoint": true,
+      "cave_location": true,
+      "mouth": true,
+      "simulated_80_floors": null,
+      "errors": []
+    },
+    {
+      "viewport": "412x915",
+      "market_exit": true,
+      "local_checkpoint": true,
+      "cave_location": true,
+      "mouth": true,
+      "simulated_80_floors": null,
+      "errors": []
+    },
+    {
+      "viewport": "768x900",
+      "market_exit": true,
+      "local_checkpoint": true,
+      "cave_location": true,
+      "mouth": true,
+      "simulated_80_floors": null,
+      "errors": []
+    },
+    {
+      "viewport": "1440x900",
+      "market_exit": true,
+      "local_checkpoint": true,
+      "cave_location": true,
+      "mouth": true,
+      "simulated_80_floors": {
+        "floors": 80,
+        "brokenMaps": 0,
+        "missingExits": 0,
+        "unreachable": 0
+      },
+      "errors": []
+    }
+  ]
+}
