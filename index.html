@@ -55,6 +55,7 @@
       <button id="language-en" type="button" aria-label="English" aria-pressed="false"><img src="assets/flags/en.png" alt="United Kingdom flag"></button>
     </div>
     <div class="quick-settings-label" data-i18n-it="EXTRA" data-i18n-en="EXTRAS">EXTRA</div>
+    <button id="logout-discord-btn" type="button" class="hidden" data-i18n-it="ESCI DA DISCORD" data-i18n-en="SIGN OUT OF DISCORD">ESCI DA DISCORD</button>
     <div class="dev-shortcuts-row" role="group" aria-label="Scorciatoie test">
       <button id="dev-mode-trigger" type="button" aria-pressed="false" aria-haspopup="dialog" aria-controls="dev-code-overlay">DEV MODE</button>
       <button id="floor-jump-trigger" type="button" aria-haspopup="dialog" aria-controls="floor-jump-overlay" title="Vai al piano scelto (1–80) con codice 2103">VAI AL PIANO</button>
@@ -590,7 +591,7 @@ window.addEventListener('load', function () {
   const shell = document.getElementById('rotom-container');
   const styleLoaded = !!(css && css.sheet) &&
     !!shell && getComputedStyle(shell).position === 'relative';
-  const engineLoaded = !!(window.game && typeof window.game.returnToMainMenu === 'function');
+  const engineLoaded = !!(window.game && typeof window.game.returnToMainMenu === 'function') || !!(window.PokexAuth?.enabled() && !document.getElementById('login-gate').classList.contains('hidden'));
   if (!styleLoaded || !engineLoaded) {
     const warning = document.getElementById('pokex-extraction-warning');
     document.getElementById('pokex-extraction-diagnostic').textContent =

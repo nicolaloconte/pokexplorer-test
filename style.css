@@ -2892,3 +2892,11 @@ body>.party-action-menu.is-portal button{background:#244e70!important;color:whit
 #pokemart-overlay .mart-product-price{margin-left:auto;padding:6px 7px;background:#173c52;color:#fff1be;border:2px solid #456c7d;border-radius:3px;white-space:nowrap;font:7px/1.4 'Press Start 2P',monospace;}
 #pokemart-overlay .mart-catalogue .mart-item-icon{width:28px!important;height:28px!important;flex-shrink:0;}
 @media(max-width:420px){#pokemart-overlay .mart-product-price{padding:4px;font-size:6px;}#pokemart-overlay .mart-product-name{font-size:6px;}}
+/* Discord account action (visible only when authenticated). */
+#logout-discord-btn:not(.hidden){
+  display:block;width:100%;margin:8px 0;padding:9px 8px;
+  color:#e5f4ff;background:#182d48;border:2px solid #5f95c2;
+  border-radius:6px;font:8px/1.5 'Press Start 2P',monospace;
+  cursor:pointer;
+}
+#logout-discord-btn:hover,#logout-discord-btn:focus-visible{border-color:#ffe18e;outline-offset:2px;}

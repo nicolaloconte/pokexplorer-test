@@ -1,3 +1,5 @@
+> **RC5.1 (Discord OAuth):** il login è predisposto e verificato con client simulati, ma il progetto Supabase attuale è INACTIVE. Prima di usare il login reale segui [la guida](docs/DISCORD_LOGIN_SETUP.md). Nessuna modifica remota eseguita.
+
 # Pokéxplorer V7.7 — R2.24 RC5 (revisione dei 19 task)
 
 **Build di sviluppo, non release stabile.** Basata sulla R2.23 RC4.1, senza modifiche al repository né al database remoto.
@@ -96,5 +98,3 @@ Il browser del collaudo simula dati Pokémon e in alcuni test la pagina è caric
 
 Per i passi manuali: `docs/R222_MANUAL_CHECKLIST.md`. Per i problemi: `docs/QA_INCIDENT_TEMPLATE.md`. Per le attribuzioni: `docs/ATTRIBUZIONI_E_ASSET.md`.
 
-#   p o k e x p l o r e r - t e s t  
- 

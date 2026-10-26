@@ -1,7 +1,7 @@
 {
   "name": "pokexplorer",
   "private": true,
-  "version": "7.7.2-rc.5",
+  "version": "7.7.2-rc.5.1",
   "description": "Pokéxplorer R2.24 RC5 – local checkpoints, shop and responsive review",
   "scripts": {
     "test": "node --test tests/*.cjs",

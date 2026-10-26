@@ -191,3 +191,14 @@ I test dell'intero ciclo Raid usano oggetti o risposte API **simulate**. Non è 
 - **F16**: nessun sistema di salvataggio / Discord Cloud / Supabase.
 
 Questa è una **release candidate di test**, non una release definitiva certificata. Vedi `docs/MANUAL_QA.md` per i test umani indispensabili prima di considerare la build stabile.
+
+## R2.24 RC5.1 — Preparazione autenticazione Discord (26 ottobre 2026)
+- Nessuna modifica a RAID, DEV MODE, generatore, gameplay o asset di gioco.
+- Quando Supabase è configurato, il motore parte solo **dopo** la verifica della sessione Discord (non viene creato per i visitatori non autenticati).
+- Aggiunti logout nell'area Opzioni e fallback per avatar Discord non autorizzati.
+- Redirect OAuth vincolato a HTTPS o localhost, con pagina di ritorno precisa e niente `file://`.
+- Isolato il caso di servizio OAuth non raggiungibile: accesso bloccato e comando Riprova.
+- Il bootstrap senza config pubblica resta un'anteprima locale, non una falsa sessione Discord.
+- Nove test Node nuovi per le condizioni di login, logout, profilo e caricamento gioco.
+- Aggiunta guida `docs/DISCORD_LOGIN_SETUP.md` per app bot esistente e distinzione release/test.
+- **Non eseguiti**: riattivazione Supabase, provider Discord, SQL, RLS, push Git, deploy, login con credenziali reali.
