@@ -1,2 +1,0 @@
-SHA-256 archivio originale V7.7 R2.19 TEST (conservato separatamente):
-1e99a45cf15d70d29f27087f01c734a13c4c2f98e5b51af55a48b745fc6b5539  pokexplorer.zip
